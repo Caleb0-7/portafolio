@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+   
+    <header class="header">
+         <h1 class="header__heading">CalebDev</h1>
+        
+        <nav class="header__nav">
+           <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Inicio</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Servicios</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Acerca</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Blog</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav><!--Navegacion-->
+    </header><!--Header-->
+
+    <main class="main">
+       
+        <div class="main__section main__section--inicio" id="inicio">
+            <div class="inicio">
+                <h2 class="inicio__heading">Quien soy?</h2>
+                <p class="inicio__text">¡Hola! Soy Caleb, desarrollador web apasionado por crear sitios modernos,
+                    eficientes y visualmente atractivos. Me especializo en diseño responsivo, optimización SEO y
+                    experiencia de usuario intuitiva para que cada proyecto cumpla con los más altos estándares.</p>
+                <p class="inicio__text">Mi objetivo es transformar ideas en sitios funcionales que reflejen la identidad
+                    y visión de cada cliente. Si necesitas un sitio web que combine diseño y rendimiento, estaré
+                    encantado de ayudarte.</p>
+                    <a href="#contacto" class="inicio__cta-button">Solicita tu sitio web</a>
+            </div>
+        </div><!--Sobre mi-->
+        
+        <div class="main__section main__section--servicios" id="servicios">
+            
+            <div class="portafolio">
+                <h2 class="portafolio">Portafolio de proyectos</h2>
+                <p class="portafolio__text">Ofrecemos desarrollo web, consultoría y soluciones digitales personalizadas.
+                </p>
+                <div class="portafolio__proyectos">
+                    <div class="portafolio__heading">Sitio Web - Arquitectura
+                        <a href="https://caleb0-7.github.io/Arquitectura" class="portafolio__link" target="_blank" rel="noopener">
+                            Visitar sitio de muestra
+                        </a>
+                        <iframe src="https://caleb0-7.github.io/Arquitectura" class="portafolio__iframe" style="width:100%;height:400px;border:1px solid #ccc;margin-top:1em;" title="Sitio Web de Arquitectura"></iframe>
+                    </div>
+                </div>
+                <div class="portafolio__proyectos">
+                    <div class="portafolio__heading">Sitio Web - TechPro
+                        <a href="https://caleb0-7.github.io/TechPro/" class="portafolio__link" target="_blank" rel="noopener">
+                            Visitar sitio de muestra
+                        </a>
+                        <iframe src="https://caleb0-7.github.io/TechPro/" class="portafolio__iframe" style="width:100%;height:400px;border:1px solid #ccc;margin-top:1em;" title="Sitio Web de Arquitectura"></iframe>
+                    </div>
+                </div>
+                <div class="portafolio__proyectos">
+                    <div class="portafolio__heading">E-commerce
+                        <a href="https://caleb0-7.github.io/e-commerce" class="portafolio__link" target="_blank" rel="noopener">
+                            Visitar sitio de muestra
+                        </a>
+                        <iframe src="https://caleb0-7.github.io/e-commerce" class="portafolio__iframe" style="width:100%;height:400px;border:1px solid #ccc;margin-top:1em;" title="Sitio Web de Arquitectura"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!--Portafolio-->
+        
+        <div class="main__section main__section--acerca" id="acerca">
+            <div class="servicios">
+                <h2 class="servicios__heading"></h2>
+                <p class="servicios__text">Somos un equipo apasionado por la tecnología y el desarrollo web.</p>
+            </div>
+        </div><!--Servicios-->
+        
+        <div class="main__section main__section--contacto" id="contacto">
+            <div class="contacto">
+                <h2 class="contacto__heading">Contacto</h2>
+            <form class="contacto__form" action="#" method="post" autocomplete="off">
+                <div class="contacto__form-group">
+                    <label for="contacto-nombre" class="contacto__form-label">Nombre</label>
+                    <input type="text" id="contacto-nombre" name="nombre" class="contacto__form-input" required>
+                </div>
+                <div class="contacto__form-group">
+                    <label for="contacto-email" class="contacto__form-label">Email</label>
+                    <input type="email" id="contacto-email" name="email" class="contacto__form-input" required>
+                </div>
+                <div class="contacto__form-group">
+                    <label for="contacto-mensaje" class="contacto__form-label">Mensaje</label>
+                    <textarea id="contacto-mensaje" name="mensaje" class="contacto__form-input" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="contacto__form-button">Enviar</button>
+            </form>
+            <div class="contacto__info">
+                <p>Puedes contactarme directamente en:</p>
+                <ul class="contacto__info-list">
+                    <li>
+                        <a href="mailto:caleb@example.com" class="contacto__info-link">
+                            <img src="img/email.svg" alt="Email" class="contacto__info-icon" /> caleb@example.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/calebdev" class="contacto__info-link" target="_blank">
+                            <img src="img/github.svg" alt="GitHub" class="contacto__info-icon" /> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/calebdev" class="contacto__info-link" target="_blank">
+                            <img src="img/twitter.svg" alt="Twitter" class="contacto__info-icon" /> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/calebdev" class="contacto__info-link" target="_blank">
+                            <img src="img/linkedin.svg" alt="LinkedIn" class="contacto__info-icon" /> LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div><!--Contacto-->
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">&copy; 2024 CalebDev.</p>
+
+          
+        </div>
+        </div>
+    </footer><!--footer-->
+
+</body>
+
+</html>
